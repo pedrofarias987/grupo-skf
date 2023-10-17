@@ -1,0 +1,40 @@
+
+.cabecalho__logo {
+transform: translate(-100px, -70px);
+
+}
+
+.cabecalho__menu {
+    text-decoration: white;
+    display: flex;
+    align-items: center;
+   
+}
+
+.cabecalho__item-menu {
+    margin: 20px;
+}
+
+.cabecalho__logo{
+    margin-right: 200px;
+    color: white;
+}
+
+.cabecalho {
+    margin: -8px;
+    background-image:linear-gradient(90deg, rgb(0, 0, 0),rgb(26, 26, 121));
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    background-color: #000000;
+    color: white;
+    justify-content: space-evenly;
+    height: 250px;
+    
+} 
+
+
+.cabecalho__menu, a {
+    color: white;
+    
+}
