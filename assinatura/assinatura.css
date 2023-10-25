@@ -1,3 +1,7 @@
+body {
+ background-image: linear-gradient(90deg, rgb(15, 52, 121), rgb(2, 14,53));
+}
+
 table {
  border: 1px solid rgba(0, 0, 0, 0);
  border-radius: 15px;
@@ -7,11 +11,15 @@ table {
  text-align: center;
  justify-content: center;
  height: 40px;
- box-shadow: 1px 10px 1px 10px #77D8B8;
+ box-shadow: 1px 10px 1px 10px #284063;
  background-color: white;
-margin: 35px;
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
+.tabela {
+
+}
 
 th, td {
  border: 1px solid rgba(0, 0, 0, 0.301);
@@ -24,7 +32,7 @@ th, td {
 .ok {
  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: x-large;
-
+background-color:rgb(0, 40, 216) ;
 color: white;
 text-shadow: 1px 1px 10px darkcyan;
 
@@ -36,7 +44,7 @@ text-shadow: 1px 1px 10px darkcyan;
 }
 
 .uhu {
- background-color: rgba(0, 255, 255, 0.493);
+ background-color: rgba(0, 119, 255, 0.849);
 }
 
 .tabela {
@@ -61,7 +69,7 @@ background-size: cover;
 }
 
 .tes {
- color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);
  text-align: center;
 margin: 0;
 font-size: 60px;
@@ -69,12 +77,28 @@ text-shadow: -2px -2px 5px  cyan;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#pobre {
- background-color:cadetblue ;
+
+.Especial {
+
 }
-#normal {
- background-color:rgb(51, 149, 194) ;
+
+.butao {
+background: none;
+border: 0px;
+cursor: pointer;
+ text-shadow: 1px 2px 2px darkcyan;
+height: 25px;
+width: 180px;
+ border-radius: 20px;
 }
-#vagabundo {
- background-color:rgb(0, 40, 216) ;
+
+.butao:hover {
+ background-color: rgba(0, 94, 201, 0.842);
+
+box-shadow: 1px 1px 10px cyan;
+}
+
+#numbers {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-shadow: 1px 1px 1px rgb(136, 2, 189);
 }
