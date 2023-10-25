@@ -1,0 +1,74 @@
+.avo {
+    background-image: linear-gradient(90deg, rgb(15, 52, 121), rgb(2, 14, 53));
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 10px;
+}
+
+/* .papai-div {
+    border: 1px solid #ffffff;
+    margin: 10px;
+    width: 40%;
+    height: 40%;
+} */
+
+.img-filho {
+    height: 275px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid rgb(5, 9, 75);
+  
+}
+
+body {
+    margin: 0%;
+    background-image: linear-gradient(90deg, rgb(15, 52, 121), rgb(2, 14, 53));
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.pegg {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 240px;
+    font-size: 60px;
+    margin-left: 175px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+   
+}
+
+h2, p, h3, h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.img-pegg {
+ margin-left: 475px;
+ width: 550px;
+}
+
+.nomes {
+    display: flex;
+    justify-content: center;
+    color: rgb(98, 140, 255);
+    font-family: 'Courier New', Courier, monospace
+}   
+
+strong {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.seiLa {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
