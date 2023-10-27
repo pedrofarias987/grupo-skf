@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+}
+
+
+.teste {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 700px;
+    width: 100%;
+  
+    
+}
+.test {
+    color: rgb(5, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 100px;
+    margin-right: 150px;
+    text-align: center;
+    height: 600px;
+    width: 700px;
+}
+.test-filho {
+    width: 500px;
+    display: flex;
+    text-align: center;
+}
+.filha-imag {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    width: 450px;
+  
+}
+.botao:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+#txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    position: fixed;
+    z-index: -1;
+}   
